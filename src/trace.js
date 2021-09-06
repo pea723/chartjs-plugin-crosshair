@@ -175,7 +175,7 @@ export default {
 
     var xScaleType = chart.config.options.scales.x.type
 
-    if (xScaleType !== 'linear' && xScaleType !== 'time' && xScaleType !== 'category' && xScaleType !== 'logarithmic' && xScaleType !== 'timeseries) {
+    if (xScaleType !== 'linear' && xScaleType !== 'time' && xScaleType !== 'category' && xScaleType !== 'logarithmic' && xScaleType !== 'timeseries') {
       return;
     }
 
